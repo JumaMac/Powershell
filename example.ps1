@@ -57,18 +57,28 @@
 #     Write-Output "Number.$num"
 # }
 
-function greet {     
-    param (
-        [string] $name, 
-        [string] $code)     
-    write-output "hello $name" 
-    write-output "you are in $code"  
-}
-$name = Read-host "Enter your name"
-$code = Read-host "Entre your code"
-greet -code "$code" -name "$name"
+# function greet {     
+#     param (
+#         [string] $name, 
+#         [string] $code)     
+#     write-output "hello $name" 
+#     write-output "you are in $code"  
+# }
+# $name = Read-host "Enter your name"
+# $code = Read-host "Entre your code"
+# greet -code "$code" -name "$name"
 
 # Prompt the user to enter their name $name = Read-Host "Please enter your name"
 # Call the greet function with the user-provided name greet -name $name
 
 
+# basic arithmetic function
+# function sum {
+#     param(
+#         [int]$num1,
+#         [int]$num2
+#     )
+#     return $num1 + $num2
+# }
+# $result = sum -num1 10 -num2  25
+# Write-Output sum is $result
