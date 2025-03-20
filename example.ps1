@@ -56,12 +56,3 @@
 # foreach($num in $numbers) {
 #     Write-Output "Number.$num"
 # }
-
-
-# $numbers = 1,2,3,4,5
-# $nums = @(1,2,3,4,5)
-
-# foreach($number in $numbers) {
-#     Write-Output $number
-# }
-
