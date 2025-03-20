@@ -1,0 +1,1 @@
+greet -code "$code" -name "$name"
